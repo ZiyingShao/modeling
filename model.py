@@ -225,6 +225,8 @@ if __name__ == "__main__":
 	print "Results: "
 	print final_printout
 
+	np.savetxt('../accuracy.out', best_accuracy)
+
 
 
 
